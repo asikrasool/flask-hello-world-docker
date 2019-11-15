@@ -1,4 +1,4 @@
-FROM ubuntu:18.10
+FROM alpine:3.4
 MAINTAINER Asik Rasool "rasoolasik1@gmail.com"
 RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev build-essential
