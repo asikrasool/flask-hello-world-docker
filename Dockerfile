@@ -9,4 +9,4 @@ ENTRYPOINT ["python"]
 CMD ["hello_world.py"]
 
 # tell docker what port to expose
-EXPOSE 5000
+EXPOSE 80
