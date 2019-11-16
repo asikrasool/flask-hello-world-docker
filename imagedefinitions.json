@@ -1,0 +1,6 @@
+[
+    {
+      "name": "flask-app",
+      "imageUri": "343337789422.dkr.ecr.ap-south-1.amazonaws.com/flaskapp:latest"
+    }
+  ]
