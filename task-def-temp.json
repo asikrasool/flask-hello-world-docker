@@ -10,7 +10,7 @@
             "essential": true,
             "logConfiguration": {
                 "logDriver": "awslogs",
-                "secretOptions": null,
+                "secretOptions": "None",
                 "options": {
                   "awslogs-group": "/ecs/flask-app",
                   "awslogs-region": "ap-south-1",
