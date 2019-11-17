@@ -14,5 +14,10 @@
                 }
             ]
         }
-    ]
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "networkMode": "awsvpc",
+    "taskRoleArn": "arn:aws:iam::343337789422:role/ecsTaskExecutionRole"
 }
