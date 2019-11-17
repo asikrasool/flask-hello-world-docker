@@ -1,0 +1,18 @@
+{
+    "family": "flask-app",
+    "containerDefinitions": [
+        {
+            "image": "343337789422.dkr.ecr.ap-south-1.amazonaws.com/flaskapp:v_%BUILD_NUMBER%",
+            "name": "flask-app",
+            "cpu": 10,
+            "memory": 256,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 80
+                }
+            ]
+        }
+    ]
+}
