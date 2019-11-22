@@ -1,10 +1,12 @@
 {
     "family": "flask-default",
+    "executionRoleArn": "arn:aws:iam::343337789422:role/ecsTaskExecutionRole",
+    "taskRoleArn": "arn:aws:iam::343337789422:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
             "image": "343337789422.dkr.ecr.ap-south-1.amazonaws.com/flaskapp:latest",
-            "taskRoleArn": "arn:aws:iam::343337789422:role/ecsTaskExecutionRole",
+            
             "name": "flask-default",
             "essential": true,
             "portMappings": [
