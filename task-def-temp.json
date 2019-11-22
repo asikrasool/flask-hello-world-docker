@@ -1,12 +1,13 @@
 {
     "family": "flask-default",
+    "networkMode": "awsvpc",
     "executionRoleArn": "arn:aws:iam::343337789422:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "image": "343337789422.dkr.ecr.ap-south-1.amazonaws.com/flaskapp:latest",
             "name": "flask-default",
-            "cpu": 10,
-            "memory": 256,
+            "cpu": 256,
+            "memory": 512,
             "essential": true,
             "portMappings": [
                 {
