@@ -5,6 +5,7 @@
     "containerDefinitions": [
         {
             "image": "343337789422.dkr.ecr.ap-south-1.amazonaws.com/flaskapp:latest",
+            "taskRoleArn": "arn:aws:iam::343337789422:role/ecsTaskExecutionRole",
             "name": "flask-default",
             "cpu": "256",
             "memory": "512",
