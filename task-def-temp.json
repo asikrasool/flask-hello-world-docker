@@ -6,7 +6,6 @@
     "containerDefinitions": [
         {
             "image": "343337789422.dkr.ecr.ap-south-1.amazonaws.com/flaskapp:latest",
-            
             "name": "flask-default",
             "essential": true,
             "portMappings": [
@@ -21,6 +20,6 @@
         "FARGATE"
     ],
     "cpu": "256",
-    "memory": "512",
+    "memory": "512"
    
 }
