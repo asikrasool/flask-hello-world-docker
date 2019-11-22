@@ -6,8 +6,8 @@
         {
             "image": "343337789422.dkr.ecr.ap-south-1.amazonaws.com/flaskapp:latest",
             "name": "flask-default",
-            "cpu": 256,
-            "memory": 512,
+            "cpu": "256",
+            "memory": "512",
             "essential": true,
             "portMappings": [
                 {
