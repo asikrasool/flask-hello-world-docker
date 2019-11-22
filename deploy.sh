@@ -14,4 +14,4 @@ DESIRED_COUNT=`aws ecs describe-services --services ${SERVICE_NAME} | egrep "des
 #    DESIRED_COUNT="1"
 #fi
 echo ${DESIRED_COUNT}
-aws ecs update-service --cluster ${SERVICE_NAME} --service ${SERVICE_NAME} --task-definition ${TASK_FAMILY}:${TASK_REVISION} --desired-count "1"
+aws ecs update-service --cluster ${SERVICE_NAME} --service ${SERVICE_NAME} --task-definition ${TASK_FAMILY}:${TASK_REVISION} --desired-count 1
